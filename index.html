@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Color Picker</title>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Color Picker</h1>
+    <div id="toggles">
+      <label for="red">Red: <span id="redValue"></span></label>
+      <input type="range" min="1" max="255" step="1" id="red">
+      <label for="green">Green: <span id="greenValue"></span></label>
+      <input type="range" min="1" max="255" step="1" id="green">
+      <label for="blue">Blue: <span id="blueValue"></span></label>
+      <input type="range" min="1" max="255" step="1" id="blue"><br>
+      <p>
+        or...
+      </p>
+      <button type="button" name="button">Randomize!</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
